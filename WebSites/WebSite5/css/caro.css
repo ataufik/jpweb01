@@ -1,0 +1,41 @@
+.carousel { z-index: -99; } /* keeps this behind all content */
+.carousel .item {
+position: fixed; 
+ opacity: 0;
+ left:0 !important;
+width: 100%; height: 100%;
+-webkit-transition: opacity 1s;
+-moz-transition: opacity 1s;
+-ms-transition: opacity 1s;
+-o-transition: opacity 1s;
+transition: opacity 1s;
+}
+
+.carousel .one {
+background: url('../img/bg_slide1.jpg');
+background-size: cover;
+-moz-background-size: cover;
+    }
+.carousel .two {
+background: url('../img/bg_slide2.jpg');
+background-size: cover;
+-moz-background-size: cover;
+}
+.carousel .three {
+background: url('../img/bg_slide3.jpg');
+background-size: cover;
+-moz-background-size: cover;
+}
+
+.carousel .active {
+opacity: 1 !important;
+}
+
+.carousel .left {
+opacity: 1 !important;
+-webkit-transition: opacity 1s  !important;
+-moz-transition: opacity 1s  !important;
+-ms-transition: opacity 1s  !important;
+-o-transition: opacity 1s  !important;
+transition: opacity 1s  !important;
+}
