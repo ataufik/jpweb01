@@ -1,0 +1,27 @@
+﻿body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+ }
+
+.brand{ display: none;}
+	  
+@media (min-width: 768px){
+    .navbar-header {
+        display: none;
+    }
+
+.brand{
+display: inherit;
+position:relative;
+text-align: center;
+background-color: rgba(0, 56, 107, 0.7);
+}
+
+.navbar-nav {
+	display: table;
+    float: none;
+    margin: 0 auto;
+	table-layout: fixed;
+}
+
+}
