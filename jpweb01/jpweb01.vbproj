@@ -85,6 +85,7 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\button.css" />
     <Content Include="css\caro.css" />
     <Content Include="css\navbar.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -111,6 +112,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
+    <Content Include="css\layout.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

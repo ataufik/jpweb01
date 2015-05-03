@@ -13,8 +13,8 @@
 .brand{
 display: inherit;
 position:relative;
-text-align: center;
 background-color: rgba(0, 56, 107, 0.7);
+text-align: center;
 }
 
 .navbar-nav {
